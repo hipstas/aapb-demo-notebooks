@@ -73,12 +73,12 @@ docker pull hipstas/audio-labeler
 docker run -it -d --name audio_labeler -p 8000:8000 -v /home/audio_labeler:/home/audio_labeler hipstas/audio-labeler bash
 ```
 
-Point your browser to `*[vps ip address here]*:8000` and begin labeling.
+Point your browser to `[vps ip address here]:8000` and begin labeling.
 
 The application will output all labels to the file `/home/audio_labeler/output_table.csv`.
 
 Or enter this URL to download the file
-`*[vps ip address here]*:8000/static/output/output_table.csv`
+`[vps ip address here]:8000/static/output/output_table.csv`
 
 
 
