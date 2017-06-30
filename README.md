@@ -54,7 +54,7 @@
 
 #### To date
 
-- Audio Tagging Toolkit (attk) Python package
+- Audio Tagging Toolkit (attk) Python package ([GitHub](https://github.com/hipstas/audio-tagging-toolkit), [Python Package Index](https://pypi.python.org/pypi/attk/0.0.6))
 
     - A set of straightforward tools for audio ML data processing.
 
@@ -67,10 +67,14 @@
     - Built using FFmpeg, Librosa, scikit-learn, MoviePy, Aubio, pyAudioAnalysis, and the SciPy stack.
 
 
-- Audio Labeler application
+- Audio Labeler application ([GitHub](https://github.com/hipstas/audio-labeler), [DockerHub](https://hub.docker.com/r/hipstas/audio-labeler/))
+
     - using Flask and Docker
 
-- Audio ML Lab research environment in Docker
+- Audio ML Lab research environment in Docker ([GitHub](https://github.com/hipstas/audio-ml-lab), [DockerHub](https://hub.docker.com/r/hipstas/audio-ml-lab/))
+
+
+    - includes dozens of
 
 
 
