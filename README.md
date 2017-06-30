@@ -36,7 +36,7 @@
     - Training models using hours of training data can take a very long time, making iterative improvements difficult.
 
     - Overfitting: Models trained on audio from a small number of sources may perform poorly in the real world.
-    
+
     - Batch processing scripts become verbose and hard to maintain as you translate between various data sources, read and write audio and classification data, and manipulate time range values.
 
 
@@ -52,6 +52,11 @@
 
 ### Outputs from this project
 
+#### To date
+- Audio Tagging Toolkit (attk) Python package
+- Audio ML Lab research environment in Docker
+- Audio Labeler application
+    - using Flask and Docker
 
 
 #### Forthcoming
