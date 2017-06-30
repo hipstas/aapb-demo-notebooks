@@ -63,7 +63,7 @@
 
 #### Data
 
-- [Test tone output](AAPB_test_tone/Potential_WGBH_tones_2887_classifier_4K_batch_test_run.csv)
+- [Test tone output](AAPB_test_tone/Potential_WGBH_tones_2887_classifier_4K_batch.csv)
 - [Test tone training data](AAPB_test_tone/training_data)
 
 
