@@ -61,6 +61,7 @@ Now `cd` into a newly created directory and download some audio with `wget`.
 
 ```
 cd /home/audio_labeler/media/
+
 wget -i https://raw.githubusercontent.com/hipstas/aapb-july-2017-demo/master/sample_audio_urls.txt
 ```
 
@@ -72,6 +73,15 @@ docker pull hipstas/audio-labeler
 docker run -it -d --name audio_labeler -p 8000:8000 -v /home/audio_labeler:/home/audio_labeler hipstas/audio-labeler bash
 ```
 
-Point your browser to *[vps ip address here]*:8000 and begin labeling. The application will output all labels to the file `/home/audio_labeler/output_table.csv`.
+Point your browser to *[vps ip address here]*:8000 and begin labeling.
+
+The application will output all labels to the file `/home/audio_labeler/output_table.csv`.
+
+Or enter this URL to download the file
+*[vps ip address here]*:8000/static/output/output_table.csv
+
+
 
 [> Live Demo Here <](http://138.68.247.106:8000/)
+
+[> Live Demo CSV Download <](http://138.68.247.106:8000/static/output/output_table.csv)
