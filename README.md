@@ -53,16 +53,33 @@
 ### Outputs from this project
 
 #### To date
+
 - Audio Tagging Toolkit (attk) Python package
-- Audio ML Lab research environment in Docker
+
+    - A set of straightforward tools for audio ML data processing.
+
+    - Includes functions for extracting audio clips and manipulating classifier output data.
+
+    - Extracts MFCC+delta features and identifies vowel ranges for speaker classification tasks.
+
+    - Accepts CSV training labels created in Sonic Visualiser and the HiPSTAS Audio Labeler app.
+
+    - Built using FFmpeg, Librosa, scikit-learn, MoviePy, Aubio, pyAudioAnalysis, and the SciPy stack.
+
+
 - Audio Labeler application
     - using Flask and Docker
 
+- Audio ML Lab research environment in Docker
+
+
+
 
 #### Forthcoming
-- Female and Male UBM training sets, each comprising around 2,000 short speech clips.
 
-- Simple Dockerized tool for loading PBCore metadata into MongoDB and running searches
+- Female and Male UBM training sets, each comprising around 3,000 short speech clips.
+
+- Dockerized tool for loading PBCore metadata into MongoDB and running searches
     - A back end for model building tasks (e.g.,
             - excluding audio that includes a given speaker's name in the metadata
             - excerpting audio from a single broadcast series
