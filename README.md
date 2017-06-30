@@ -1,4 +1,4 @@
-# HiPSTAS / WGBH / AAPB Redport, July 2017
+# HiPSTAS / WGBH / AAPB Report, July 2017
 
 [Forward to pg. 2 >>](https://github.com/hipstas/aapb-july-2017-demo/blob/master/02_Audio_Labeler.md)
 
