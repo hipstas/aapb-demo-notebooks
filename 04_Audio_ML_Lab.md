@@ -6,3 +6,29 @@
 *\> Live Audio ML Lab [terminal](http://138.68.247.106:8888/terminals/1) and [notebook](http://138.68.247.106:8888/notebooks/Untitled.ipynb?kernel_name=python2)*
 =======
 *[> Live Audio ML Lab terminal](http://138.68.247.106:8888/terminals/1) and [Notebook](http://138.68.247.106:8888/notebooks/Untitled.ipynb?kernel_name=python2)*
+
+## Some software included in Audio ML Lab
+
+- Jupyter and Python 2.7
+- FFmpeg (with mp3 support)
+- sox
+- youtube-dl
+- Exiftool
+- Aubio
+- libavcodec
+- libjack
+- praat
+
+#### Python packages
+
+- SciPy stack: NumPy, pandas, matplotlib, etc.
+- Audio Tagging Toolkit (attk)
+- PyDub
+- scikit-learn
+- Librosa
+- MoviePy
+- pyAudioAnalysis
+- pocketsphinx
+- scikits.talkbox
+- scikits.audiolab
+- tflearn
