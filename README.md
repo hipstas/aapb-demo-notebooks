@@ -30,13 +30,9 @@
 
 
 - Technical challenges
-
     - Most existing software for training audio classifiers has a high learning curve.
-
     - Training models using hours of training data can take a very long time, making iterative improvements difficult.
-
     - Overfitting: Models trained on audio from a small number of sources may perform poorly in the real world.
-
     - Batch processing scripts become verbose and hard to maintain as you translate between various data sources, read and write audio and classification data, and manipulate time range values.
 
 
@@ -55,28 +51,20 @@
 #### To date
 
 - Audio Tagging Toolkit (attk) Python package ([GitHub](https://github.com/hipstas/audio-tagging-toolkit), [Python Package Index](https://pypi.python.org/pypi/attk/0.0.6))
-
     - A set of straightforward tools for audio ML data processing.
-
     - Includes functions for extracting audio clips and manipulating classifier output data.
-
     - Extracts MFCC+delta features and identifies vowel ranges for speaker classification tasks.
-
     - Accepts CSV training labels created in Sonic Visualiser and the HiPSTAS Audio Labeler app.
-
     - Built using FFmpeg, Librosa, scikit-learn, MoviePy, Aubio, pyAudioAnalysis, and the SciPy stack.
 
-
 - Audio Labeler application ([GitHub](https://github.com/hipstas/audio-labeler), [DockerHub](https://hub.docker.com/r/hipstas/audio-labeler/))
-
     - using Flask and Docker
-
 - Audio ML Lab research environment in Docker ([GitHub](https://github.com/hipstas/audio-ml-lab), [DockerHub](https://hub.docker.com/r/hipstas/audio-ml-lab/))
 
+#### Data
 
-    - includes dozens of
-
-
+- [Test tone output](AAPB_test_tone/Potential_WGBH_tones_2887_classifier_4K_batch_test_run.csv)
+- [Test tone training data](AAPB_test_tone/training_data)
 
 
 #### Forthcoming

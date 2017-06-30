@@ -75,9 +75,9 @@ docker run -it -d --name audio_labeler -p 8000:8000 -v /home/audio_labeler:/home
 
 Point your browser to `[vps ip address here]:8000` and begin labeling.
 
-The application will output all labels to the file `/home/audio_labeler/output_table.csv`.
+The application will output all labels to the following file on your server:  `/home/audio_labeler/output_table.csv`.
 
-Or enter this URL to download the file
+Or enter this URL to download it through the browser:
 `[vps ip address here]:8000/static/output/output_table.csv`
 
 
