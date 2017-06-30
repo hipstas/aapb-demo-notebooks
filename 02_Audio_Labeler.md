@@ -4,7 +4,7 @@
 
 [<< Back to pg. 1](https://github.com/hipstas/aapb-july-2017-demo/blob/master/README.md) \| [Forward to pg. 3 >>](https://github.com/hipstas/aapb-july-2017-demo/blob/master/03_attk.utils_demo.ipynb)
 
-\>\> [Live Demo Here <](http://138.68.247.106:8000/) <<
+\>\> [Live Demo Here](http://138.68.247.106:8000/) \<\<
 
 ![](img/Audio_Labeler.png)
 
