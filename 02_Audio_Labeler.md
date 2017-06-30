@@ -81,7 +81,6 @@ Or enter this URL to download it through the browser:
 `[vps ip address here]:8000/static/output/output_table.csv`
 
 
+[» Live Demo Here «](http://138.68.247.106:8000/)
 
-[> Live Demo Here <](http://138.68.247.106:8000/)
-
-[> Live Demo CSV Download <](http://138.68.247.106:8000/static/output/output_table.csv)
+[» Live Demo CSV Download «](http://138.68.247.106:8000/static/output/output_table.csv)
