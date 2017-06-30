@@ -6,6 +6,8 @@
 
 [> Live Demo Here <](http://138.68.247.106:8000/)
 
+![](img/Audio_Labeler.png)
+
 ```
 docker pull hipstas/audio-labeler \
 && docker run -it -d --name audio_labeler -p 8000:8000 -v /home/audio_labeler:/home/audio_labeler hipstas/audio-labeler bash
