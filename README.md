@@ -18,21 +18,28 @@
 
 - In this context, state-of-the-art performance may be overkill, both in terms of compute time and training time.
     - Deep learning requires a large quantity of training data and runs prohibitively slowly on consumer PCs.
+    - Rough guideline: A system that takes more than a week or two to classify your collection of interest may not not be the best approach.
+    - For small audio collections (minutes up to hundreds of hours), slow ML algorithms (decision trees, e.g.) with no dimension reduction can work just fine. For larger collections, we need to use SVM or GMM classifiers and perhaps a dimension reduction step (PCA or LDA).
+
+
 
 - Initial constraints
     - Storage and compute resources may be limited.
     - Labeling audio for training is time-consuming.
     - Workers may not be comfortable writing code or using the command line.
 
+
 - Technical challenges
     - Most existing software for training audio classifiers has a high learning curve.
     - Training models using hours of training data can take a very long time, making iterative improvements difficult.
     - Overfitting: Models trained on audio from a small number of sources may perform poorly in the real world.
 
+
 - Industry norm for designing ML classifiers: 3 separate labeled datasets before a model sees real-world data.
     - training set
     - validation set
     - test set
+
 
 
 
