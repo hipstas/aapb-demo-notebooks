@@ -4,8 +4,6 @@
 
 
 *\> Live Audio ML Lab [terminal](http://138.68.247.106:8888/terminals/1) and [notebook](http://138.68.247.106:8888/notebooks/Untitled.ipynb?kernel_name=python2)*
-=======
-*[> Live Audio ML Lab terminal](http://138.68.247.106:8888/terminals/1) and [Notebook](http://138.68.247.106:8888/notebooks/Untitled.ipynb?kernel_name=python2)*
 
 ## Some software included in Audio ML Lab
 
