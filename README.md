@@ -30,9 +30,13 @@
 
 
 - Technical challenges
+
     - Most existing software for training audio classifiers has a high learning curve.
+
     - Training models using hours of training data can take a very long time, making iterative improvements difficult.
+
     - Overfitting: Models trained on audio from a small number of sources may perform poorly in the real world.
+    
     - Batch processing scripts become verbose and hard to maintain as you translate between various data sources, read and write audio and classification data, and manipulate time range values.
 
 
@@ -46,8 +50,25 @@
 
 
 
+### Outputs from this project
 
-###
+
+
+#### Forthcoming
+- Female and Male UBM training sets, each comprising around 2,000 short speech clips.
+
+- Simple Dockerized tool for loading PBCore metadata into MongoDB and running searches
+    - A back end for model building tasks (e.g.,
+            - excluding audio that includes a given speaker's name in the metadata
+            - excerpting audio from a single broadcast series
+    - Will include a minimal in-browser interface for locating metadata manually.
+
+
+
+
+
+
+
 
 
 <!--
